@@ -1,9 +1,9 @@
-package com.pluralsight.service;
+package net.pritesh.service;
 
 import java.util.List;
 
-import com.pluralsight.model.Activity;
-import com.pluralsight.model.Exercise;
+import net.pritesh.model.Activity;
+import net.pritesh.model.Exercise;
 
 public interface ExerciseService
 {

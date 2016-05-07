@@ -1,4 +1,4 @@
-package com.pluralsight.controller;
+package net.pritesh.controller;
 
 import java.util.List;
 
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import com.pluralsight.model.Goal;
-import com.pluralsight.model.GoalReport;
-import com.pluralsight.service.GoalService;
+import net.pritesh.model.Goal;
+import net.pritesh.model.GoalReport;
+import net.pritesh.service.GoalService;
 
 @Controller
 @SessionAttributes("goal")

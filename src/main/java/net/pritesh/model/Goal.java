@@ -1,4 +1,4 @@
-package com.pluralsight.model;
+package net.pritesh.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ import org.hibernate.validator.constraints.Range;
 @Entity
 @Table(name = "goals")
 //@NamedQueries({
-//	@NamedQuery(name=Goal.FIND_GOAL_REPORTS, query = "Select new com.pluralsight.model.GoalReport(g.minutes, e.minutes, e.activity) "
+//	@NamedQuery(name=Goal.FIND_GOAL_REPORTS, query = "Select new net.pritesh.model.GoalReport(g.minutes, e.minutes, e.activity) "
 //						+ "from Goal g, Exercise e where g.id = e.goal.id"),
 //	@NamedQuery(name = Goal.FIND_ALL_GOALS, query = "Select g from Goal g")
 //	

@@ -1,4 +1,4 @@
-package com.pluralsight.controller;
+package net.pritesh.controller;
 
 import java.util.List;
 
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.pluralsight.model.Activity;
-import com.pluralsight.model.Exercise;
-import com.pluralsight.model.Goal;
-import com.pluralsight.service.ExerciseService;
+import net.pritesh.model.Activity;
+import net.pritesh.model.Exercise;
+import net.pritesh.model.Goal;
+import net.pritesh.service.ExerciseService;
 
 @Controller
 public class MinutesController

@@ -1,4 +1,4 @@
-package com.pluralsight.model;
+package net.pritesh.model;
 
 public class Activity
 {

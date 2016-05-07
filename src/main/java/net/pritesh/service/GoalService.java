@@ -1,9 +1,9 @@
-package com.pluralsight.service;
+package net.pritesh.service;
 
 import java.util.List;
 
-import com.pluralsight.model.Goal;
-import com.pluralsight.model.GoalReport;
+import net.pritesh.model.Goal;
+import net.pritesh.model.GoalReport;
 
 public interface GoalService
 {

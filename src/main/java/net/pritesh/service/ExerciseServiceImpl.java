@@ -1,4 +1,4 @@
-package com.pluralsight.service;
+package net.pritesh.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.pluralsight.model.Activity;
-import com.pluralsight.model.Exercise;
-import com.pluralsight.repository.ExerciseRepository;
+import net.pritesh.model.Activity;
+import net.pritesh.model.Exercise;
+import net.pritesh.repository.ExerciseRepository;
 
 @Service("exerciseService")
 public class ExerciseServiceImpl implements ExerciseService
